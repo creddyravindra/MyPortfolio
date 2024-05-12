@@ -1,0 +1,109 @@
+.body {
+    background: #f8f9fa; /* Light background */
+    color: #333; /* Thick text color */
+}
+
+.logo-header {
+    border-radius: 50%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #007bff; /* Navigation button background color */
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Navigation button text color on hover */
+    background-color: #fff;
+}
+
+.btn {
+    color: #fff; /* Button text color */
+    background-color: #007bff; /* Button background color */
+    border-color: #007bff; /* Button border color */
+}
+
+.btn:hover {
+    color: #fff; /* Button text color on hover */
+    background-color: #0056b3; /* Button background color on hover */
+    border-color: #0056b3; /* Button border color on hover */
+}
+
+span {
+    font-size: x-large;
+}
+
+.card {
+    --bs-card-bg: none;
+}
+
+.gradient-color-edu1 {
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    color: #333;
+}
+
+.gradient-color-edu2 {
+    background: linear-gradient(90deg, #6610f2, #aa00ff);
+    color: #333;
+}
+
+.gradient-color-edu3 {
+    background: linear-gradient(90deg, #28a745, #00ff88);
+    color: #333;
+}
+
+@media screen and (max-width: 750px) {
+    .gradient-color-edu1,
+    .gradient-color-edu2,
+    .gradient-color-edu3 {
+        background: linear-gradient(90deg, #007bff, #00d4ff);
+    }
+}
+
+.feature-box-01 {
+    background: #fff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 35px 25px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    transition: ease all 0.35s;
+}
+
+.feature-box-01:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box-01 .icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+    background-size: 120%;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.feature-box-01 .feature-content {
+    padding-left: 20px;
+}
+
+.feature-box-01 .feature-content h5 {
+    margin: 0 0 8px;
+    font-weight: 700; /* Thick font weight */
+    color: #333; /* Text color */
+}
+
+.feature-box-01 .feature-content p {
+    margin: 0;
+    color: #555; /* Slightly darker text color for better visibility */
+}

@@ -1,2 +1,1 @@
-# MyPortfolio
- My personal bio data ...
+# JrPortfolio
